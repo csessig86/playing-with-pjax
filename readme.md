@@ -5,6 +5,8 @@ Playing with pjax
 
 [Pjax demo](http://pjax.herokuapp.com/)
 
+[My demo](http://csessig86.github.io/playing-with-pjax/)
+
 ###About
 
 Pjax allows you to load the HTML of an another page into your current page WITHOUT completely refreshing the page. It does this by grabbing the HTML from your server via [ajax](http://www.w3schools.com/ajax/) then loading that HTML into the page wherever you want it to go.
