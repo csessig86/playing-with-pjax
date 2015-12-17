@@ -49,6 +49,20 @@ $.pjax({
 	container: '#pjax-container'
 })
 
+### Rails
+
+You need to install the pjax_rails. For information on installing pjax within your Rails app on their [Github page](https://github.com/rails/pjax_rails).
+
+Here's the controller code you'll need to add:
+
+```javascript
+def index
+  if request.headers['X-PJAX']
+    render :layout => false
+  end
+end
+```
+
 ###Compatibility
 
 Browsers need to pushState for pjax to work. So IE 9 is out.

@@ -3,6 +3,10 @@
 	padding: 10px;
 }
 
+.navbar-default .navbar-brand {
+	color: #333;
+}
+
 /* Refresh button */
 #refresh-button {
 	margin-top: 50px;
