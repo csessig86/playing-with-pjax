@@ -5,6 +5,8 @@
 	<script src="/js/lib/jquery-2.1.4.js"></script>
 
 	<link rel="stylesheet" href="css/lib/bootstrap-3.3.6.css">
+	<link rel="stylesheet" href="css/lib/font-awesome-4.5.0.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <nav class="navbar navbar-default">
@@ -17,6 +19,9 @@
 	    </div>
 	    <ul class="nav navbar-nav">
 	    	<li>
+	    		<a href="/">Home</a>
+	    	</li>
+	    	<li>
 	    		<a href="/sub-pages/sub-page-1.html">Sub page 1</a>
 	    	</li>
 	    	<li>
@@ -25,13 +30,38 @@
 	    	<li>
 	    		<a href="/sub-pages/sub-page-3.html">Sub page 3</a>
 	    	</li>
+	    	<li>
+	    		<i class="fa fa-2x fa-circle-o-notch fa-spin"></i>
+	    	</li>
+	    	<li>
+	    		<i class="fa fa-2x fa-cog fa-spin"></i>
+	    	</li>
+	    	<li>
+	    		<i class="fa fa-2x fa-circle-o-notch fa-spin"></i>
+	    	</li>
 	    </ul>
 	  </div>
 	</nav>
   <div class="container" id="pjax-container">
-    <h4>This is the content from index.html</4>
+    <h4>This is the content from index.html</h4>
+
+    <p>When you click on another nav bar link, the HTML from those pages will replace the text in this container. To see this in action, notice how the rotating icons, which are in the navbar, don't refresh when you click on a new link.</p>
+
+    <img src="/imgs/home.gif" />
+	</div>
+
+	<div class="container">
+		<button type="button" id="refresh-button" class="btn btn-default">
+			Reload this page with pjax
+		</button>
 	</div>
 	
+	<footer class="footer">
+		<div class="container">
+				<p>This demo was created by <a href="https://github.com/csessig86" target="_blank">Chris Essig</a></p>
+		</div>
+	</footer>
+
 	<script src="/js/lib/jquery.pjax-1.9.6.js"></script>
   <script src="/js/script.js"></script>
 </body>

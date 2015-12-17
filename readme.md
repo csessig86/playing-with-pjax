@@ -31,5 +31,26 @@ $(document).pjax('.nav li a', '#pjax-container')
 
 That's it.
 
+###Refresh the page
+
+If you want to refresh the current page you are on using pjax, use the following:
+
+```javascript
+$.pjax.reload('#pjax-container')
+```
+
+
+###Calling without clicking
+
+What if you want to call pjax without clicking on a link? For instance, say you want to call it as you scroll down the page. Well you can manually invocate pjax like so:
+
+$.pjax({
+	url: url,
+	container: '#pjax-container'
+})
+
 ###Compatibility
 
+Browsers need to pushState for pjax to work. So IE 9 is out.
+
+The pjax Github page has information for [testing](https://github.com/defunkt/jquery-pjax#compatibility) if your browser is compatible.
