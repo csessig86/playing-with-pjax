@@ -1,1 +1,1 @@
-$(document).pjax('a', '#pjax-container')
+$(document).pjax('.nav li a', '#pjax-container')

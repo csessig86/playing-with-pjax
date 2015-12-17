@@ -7,11 +7,24 @@
 	<link rel="stylesheet" href="css/lib/bootstrap-3.3.6.css">
 </head>
 <body>
-  <h1>Pjax demo</h1>
+  <nav class="navbar navbar-default">
+	  <div class="container-fluid">
+	    <!-- Header -->
+	    <div class="navbar-header">
+	      <a class="navbar-brand" href="sub-pages/index-two.html">
+	        Pjax demo
+	      </a>
+	    </div>
+	    <ul class="nav navbar-nav">
+	    	<li>
+	    		<a href="sub-pages/index-two.html">Index two</a>
+	    	</li>
+	    </ul>
+	  </div>
+	</nav>
   <div class="container" id="pjax-container">
-    <a href="sub-pages/index-two.html">next page</a>.
-
-  </div>
+    <p>Content from the other pages will go here</p>
+	</div>
 	
 	<script src="js/lib/jquery.pjax-1.9.6.js"></script>
   <script src="js/script.js"></script>
