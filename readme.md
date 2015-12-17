@@ -1,4 +1,5 @@
-#Playing with pjax
+Playing with pjax
+===========
 
 [Pjax library URL](https://github.com/defunkt/jquery-pjax)
 
@@ -20,6 +21,11 @@ Within the project directory is my demo of using pjax.
 
 ###Calling pjax
 
+Inside js/script.js is the
+
+```javascript
+$(document).pjax('.nav li a', '#pjax-container')
+```
 
 
 ###Compatibility
