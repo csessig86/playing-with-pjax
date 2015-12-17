@@ -29,5 +29,7 @@ A basic set up with super easy. The first parameter in the call below are the li
 $(document).pjax('.nav li a', '#pjax-container')
 ```
 
+That's it.
+
 ###Compatibility
 
