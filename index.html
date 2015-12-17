@@ -13,13 +13,13 @@
 	  <div class="container-fluid">
 	    <!-- Header -->
 	    <div class="navbar-header">
-	      <a class="navbar-brand" href="/">
+	      <div class="navbar-brand">
 	        Pjax demo
-	      </a>
+	      </div>
 	    </div>
 	    <ul class="nav navbar-nav">
 	    	<li>
-	    		<a href="/">Home</a>
+	    		<a href="/">Home (not using pjax)</a>
 	    	</li>
 	    	<li>
 	    		<a href="/sub-pages/sub-page-1.html">Sub page 1</a>
@@ -39,6 +39,9 @@
 	    	<li>
 	    		<i class="fa fa-2x fa-circle-o-notch fa-spin"></i>
 	    	</li>
+	    	<li>
+	    		<i class="fa fa-2x fa-cog fa-spin"></i>
+	    	</li>
 	    </ul>
 	  </div>
 	</nav>
@@ -46,6 +49,7 @@
     <h4>This is the content from index.html</h4>
 
     <p>When you click on another nav bar link, the HTML from those pages will replace the text in this container. To see this in action, notice how the rotating icons, which are in the navbar, don't refresh when you click on a new link.</p>
+    <p>For comparisions sake, the "Home" link isn't using pjax. Notice how the whole page reloads and, in particular, how the spinning icons start over.</p>
 
     <img src="/imgs/home.gif" />
 	</div>
