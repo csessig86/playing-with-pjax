@@ -21,12 +21,13 @@ Within the project directory is my demo of using pjax.
 
 ###Calling pjax
 
-Inside js/script.js is the
+Inside js/script.js is the initialization of pjax.
+
+A basic set up with super easy. The first parameter in the call below are the links within the navbar we want to open up the HTML of the subpages. The second parameter is the container on the page where we want to put the HTML:
 
 ```javascript
 $(document).pjax('.nav li a', '#pjax-container')
 ```
-
 
 ###Compatibility
 
