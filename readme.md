@@ -1,11 +1,7 @@
 Playing with pjax
 ===========
 
-[Pjax library URL](https://github.com/defunkt/jquery-pjax)
-
-[Pjax demo](http://pjax.herokuapp.com/)
-
-[My demo](http://csessig86.github.io/playing-with-pjax/)
+[LIVE DEMO](http://csessig86.github.io/playing-with-pjax/)
 
 ###About
 
@@ -70,3 +66,10 @@ end
 Browsers need to pushState for pjax to work. So IE 9 is out.
 
 The pjax Github page has information for [testing](https://github.com/defunkt/jquery-pjax#compatibility) if your browser is compatible.
+
+
+###Resources
+
+[Pjax library URL](https://github.com/defunkt/jquery-pjax)
+
+[Pjax demo](http://pjax.herokuapp.com/)
