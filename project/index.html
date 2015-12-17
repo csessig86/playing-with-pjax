@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Playing with pjax</title>
-	<script src="js/lib/jquery-2.1.4.js"></script>
+	<script src="/js/lib/jquery-2.1.4.js"></script>
 
 	<link rel="stylesheet" href="css/lib/bootstrap-3.3.6.css">
 </head>
@@ -11,22 +11,25 @@
 	  <div class="container-fluid">
 	    <!-- Header -->
 	    <div class="navbar-header">
-	      <a class="navbar-brand" href="sub-pages/index-two.html">
+	      <a class="navbar-brand" href="/">
 	        Pjax demo
 	      </a>
 	    </div>
 	    <ul class="nav navbar-nav">
 	    	<li>
-	    		<a href="sub-pages/index-two.html">Index two</a>
+	    		<a href="/sub-pages/sub-page-1.html">Sub page 1</a>
+	    	</li>
+	    	<li>
+	    		<a href="/sub-pages/sub-page-2.html">Sub page 2</a>
 	    	</li>
 	    </ul>
 	  </div>
 	</nav>
   <div class="container" id="pjax-container">
-    <p>Content from the other pages will go here</p>
+    <h4>This is the content from index.html</4>
 	</div>
 	
-	<script src="js/lib/jquery.pjax-1.9.6.js"></script>
-  <script src="js/script.js"></script>
+	<script src="/js/lib/jquery.pjax-1.9.6.js"></script>
+  <script src="/js/script.js"></script>
 </body>
 </html>
